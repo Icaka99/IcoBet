@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\IcoBet.Data.Models\IcoBet.Data.Models.csproj" />
+    <ProjectReference Include="..\IcoBet.Data\IcoBet.Data.csproj" />
+    <ProjectReference Include="..\IcoBet.Services.Models\IcoBet.Services.Models.csproj" />
+    <ProjectReference Include="..\IcoBet.Web.ViewModels\IcoBet.Web.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>
